@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginstyles.css">
+    <title>Join Game</title>
+</head>
+<body>
+    <h2>Currently online : n users</h2>
+    <h1>Enter your name</h1>
+    <form id="nameForm" onsubmit="displayEnteredName(event)">
+        <!-- <label for="name">Name:</label> -->
+        <input type="text" id="name" name="name" placeholder="Your name here" required>
+        <br><br>
+        <button type="submit">Join Game</button>
+    </form>
+    <p>Display Name here</p>
+    <p id="displayName">...</p>
+    <script src="loginlogic.js"></script>
+
+
+</body>
+</html>
